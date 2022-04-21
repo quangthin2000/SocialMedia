@@ -1,0 +1,41 @@
+.status {
+    max-width: 650px;
+    margin: 20px auto 0;
+    cursor: pointer;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        padding: 16px; 
+    
+        &--icon {
+            display: flex;
+            align-items: center;
+            padding: 4px 0;
+        }
+    
+        &:last-child {
+            justify-content: space-between;
+        }
+    }
+    
+    &__input {
+        flex: 1;
+    }
+    
+    &__icon {
+        margin-right: 4px;
+    
+        &--photo {
+            color: #34a853;
+        }
+    
+        &--felling {
+            color: #fbbc05;
+        }
+    
+        &--friend {
+            color: #4285f4;
+        }
+    }
+}

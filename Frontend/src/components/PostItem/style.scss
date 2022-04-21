@@ -1,0 +1,51 @@
+.postItem {
+    margin: 20px 0;
+
+    &__card {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    &__image {
+        margin-top: 8px;
+        border-radius: 4px;
+    }
+
+    &__container {
+        padding: 16px;
+    }
+
+    &__theme {
+        background-color: #fafafa;
+        width: 100%;
+        padding: 8px 16px; 
+        border-radius: 30px;
+    }
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    &__input {
+        width: 100%;
+        background-color: #fafafa;
+    }
+
+    &__icon {   
+        position: absolute;
+        right: 6px;
+        color: #4285f4;
+        
+        &:hover {
+          background-color: #fff;
+        }
+
+        &--like {
+            color: red;
+        }
+    }
+
+}

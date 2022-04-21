@@ -1,0 +1,19 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+
+  &__label {
+    margin: 16px 0 12px;
+  }
+
+  &__error {
+    color: red;
+    margin: 4px 0;
+  }
+
+  &__active {
+    background-color: #e8f0fe;
+  }
+}
